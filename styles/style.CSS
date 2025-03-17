@@ -5,7 +5,6 @@
     font-style: normal;
 }
 
-
 /* shared styles */
 .display-flex {
     display: flex;
@@ -226,6 +225,22 @@ main>section {
     filter: grayscale(100%);
 }
 
+/* footer styles */
+footer{
+    padding: 39px;
+    max-width: 1440px;
+    max-height: 100px;
+    margin-top: 150px;
+    margin-bottom: 180px;
+}
+.footer-copy{
+    font-size: 1.25rem;
+    font-weight: 400;
+    max-width: 650px;
+    margin: 0 auto;
+    justify-self: center;
+}
+
 /* Responsive media query */
 
 @media screen and (max-width: 576px) {
@@ -247,7 +262,7 @@ main>section {
         margin-left: 20px;
     }
 
-    .facts-container {}
+   
 
     .sponsor-companies {
         justify-items: center;
